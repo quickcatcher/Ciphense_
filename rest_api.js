@@ -26,7 +26,7 @@ client
 setTimeout(function(){
   var contents = fs.readFileSync('labels.txt', 'utf8');
   txtomp3.saveMP3(contents, "labels.mp3");
-}, 10000);
+}, 5000);
 
 
 
