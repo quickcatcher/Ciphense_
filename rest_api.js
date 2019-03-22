@@ -15,7 +15,7 @@ client
     const labels = results[0].labelAnnotations;
 
     console.log('Labels:');
-    labels.forEach(label => fs.appendFileSync('labels.txt', ' ' + label.description));
+    labels.forEach(label => fs.appendFileSync('labels.txt', '. ' + label.description));
   })
   .catch(err => {
     console.error('ERROR:', err);
